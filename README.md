@@ -9,6 +9,7 @@ This repository is home to four alternative implementations of `AsyncWrite`. The
 | Impl-3  | [src/bin/pinless.rs](src/bin/pinless.rs)     | Yes                 | No                       | Yes (`Unpin`)  | Safe on-the-fly pinning      |
 | Impl-4  | [src/bin/asyncless.rs](src/bin/asyncless.rs) | No (but could be)   | No                       | Yes (`!Unpin`) | `pin_project` or unsafe      |
 
+See the accompanying [blog post](https://medium.com/@razieh.behjati/asyncwrite-and-a-tale-of-four-implementations-e63aef8397f7) that discusses these implementations in depth.
 
 
 
